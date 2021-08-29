@@ -89,6 +89,7 @@ Precio.departamentos.venta.2 <- Precio.departamentos.venta.1 %>%
   summarise(cantidad=n())
 #Es posible observar que entre 2017 y 2019 hubo 20 departamentos a la venta en cada barrio (Belgrano, Palermo y Recolta)
 
+
 #Conclusion
 summary(Precio.departamentos.venta.1) 
 #Es posible observar que entre 2017 y 2019 el precio promedio rondo en los 4000 USD el m2, con una minima de 3335 y una maxima de 4785 en los barrios aledaños al rio (Belgrano, Palermo y Recoleta)
